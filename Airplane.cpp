@@ -15,6 +15,12 @@ Airplane::Airplane(std::string number,std::string callsign, std::string model, u
     _callsign = callsign;
     _model = model;
     _status = status;
+    if(_status == Approaching){
+        _height = 10000;
+    }
+    else{
+        _height = 0;
+    }
 
     ENSURE(properlyInitialised(), "Constructor must end");
     ENSURE(_height == 0 || _height == 10000, "Height must be either 0 or 10000");

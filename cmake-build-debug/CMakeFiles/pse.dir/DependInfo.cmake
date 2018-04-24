@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/uauser/CLionProjects/pse/Airplane.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/Airplane.cpp.o"
-  "/home/uauser/CLionProjects/pse/Airport.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/Airport.cpp.o"
-  "/home/uauser/CLionProjects/pse/DesignByContract.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/DesignByContract.cpp.o"
-  "/home/uauser/CLionProjects/pse/Gate.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/Gate.cpp.o"
-  "/home/uauser/CLionProjects/pse/Runway.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/Runway.cpp.o"
-  "/home/uauser/CLionProjects/pse/main.cpp" "/home/uauser/CLionProjects/pse/cmake-build-debug/CMakeFiles/pse.dir/main.cpp.o"
+  "/home/uauser/Downloads/pse/Airplane.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/Airplane.cpp.o"
+  "/home/uauser/Downloads/pse/Airport.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/Airport.cpp.o"
+  "/home/uauser/Downloads/pse/DesignByContract.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/DesignByContract.cpp.o"
+  "/home/uauser/Downloads/pse/Gate.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/Gate.cpp.o"
+  "/home/uauser/Downloads/pse/Runway.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/Runway.cpp.o"
+  "/home/uauser/Downloads/pse/main.cpp" "/home/uauser/Downloads/pse/cmake-build-debug/CMakeFiles/pse.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

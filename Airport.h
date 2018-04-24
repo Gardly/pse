@@ -39,7 +39,7 @@ public:
 
     bool properlyInitialised();
 
-    void gateprotocol(Airplane* airplane);
+    void gateprotocol(Airplane* airplane, int passengers);
     void runwayprotocol(Airplane* airplane);
     void landingprotocol(Airplane* airplane);
     void takeoffprotocol(Airplane* airplane);

@@ -9,17 +9,23 @@
 #include "Airplane.h"
 
 class Gate {
-public:
     Gate* _initcheck;
     Airplane* _airplane;
 
     int _name;
 
     bool _occupied;
-
-    Gate(int _name, bool _occupied);
+public:
+    Gate(int _name);
 
     bool properlyInitialised();
+
+    int get_name();
+    bool is_occupied();
+    Airplane *get_airplane();
+
+    void addAirplane(Airplane * airplane);
+    void removeAirplane();
 };
 
 

@@ -26,7 +26,9 @@ CMakeFiles/pse.dir/Runway.cpp.o: ../Runway.cpp
 CMakeFiles/pse.dir/Runway.cpp.o: ../Runway.h
 
 CMakeFiles/pse.dir/main.cpp.o: ../Airplane.h
+CMakeFiles/pse.dir/main.cpp.o: ../Airport.h
 CMakeFiles/pse.dir/main.cpp.o: ../DesignByContract.h
+CMakeFiles/pse.dir/main.cpp.o: ../Gate.h
 CMakeFiles/pse.dir/main.cpp.o: ../Runway.h
 CMakeFiles/pse.dir/main.cpp.o: ../main.cpp
 
