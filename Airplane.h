@@ -11,7 +11,7 @@
 #include "DesignByContract.h"
 #include <iostream>
 
-enum Status {StandingAtGate, StandingAtRunway, InTheAir, Approaching};
+enum Status {JustLanded, StandingAtGate, Departure, InTheAir, Approaching};
 
 class Airplane
 {

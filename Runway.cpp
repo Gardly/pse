@@ -31,9 +31,6 @@ void Runway::addAirplane(Airplane *airplane) {
     _airplane->set_height(0);
     ENSURE(_airplane->get_height() == 0, "Added airplane's height isn't set to 0");
 
-    _airplane->set_status(StandingAtRunway);
-    ENSURE(_airplane->get_status() == StandingAtRunway, "Added airplane's status isn't StandingAtRunway");
-
     ENSURE(_airplane->get_model() == airplane->get_model() && _airplane->get_number() == airplane->get_number() &&
            _airplane->get_callsign() == airplane->get_callsign(), "Added airplane doesn't match airplane");
 

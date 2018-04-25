@@ -12,6 +12,16 @@
 #include "Runway.h"
 #include "Airplane.h"
 
+
+/*
+ *
+ * REQUIRES EN ENSURES IN HEADERS ZETTE ALS COMMENT
+ *
+ *
+ *
+ */
+
+class AirTrafficController;
 class Airport
 {
 private:
@@ -39,8 +49,9 @@ public:
 
     bool properlyInitialised();
 
-    void gateprotocol(Airplane* airplane, int passengers);
-    void runwayprotocol(Airplane* airplane);
+    void gateprotocol(Airplane* airplane, unsigned int passengers);
+
+    //
     void landingprotocol(Airplane* airplane);
     void takeoffprotocol(Airplane* airplane);
 };
